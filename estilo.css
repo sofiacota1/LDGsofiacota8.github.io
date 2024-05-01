@@ -1,0 +1,12 @@
+html { 
+  background: url(https://64.media.tumblr.com/ed4ffab23193f9334b82be4cabe4870c/tumblr_n7jviw1EyB1rk2rdno1_500.gif); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+body{text-align: center; color: white; font-family: montserrat;}
+h1{font-size: 70px;}
+h2{font-size: 100px;font-family: montserrat; color: deeppink;}
+p{color: black;font-size: 20px; color: black;}
+a {font-size: 15px;}

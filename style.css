@@ -1,0 +1,134 @@
+html *{
+ margin: 0; 
+ padding: 0;
+ font-family: 'montserrat'; sans-serif; justify-content: center; align-items: center;
+
+}
+h3{
+  font-size: 2.2rem;
+}
+
+/** Header **/
+
+.body-landing{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+h4{text-align: center; font-size: 30px; font-weight: bold; margin: 1em;}
+h5{text-align: center; font-size: 30px; font-weight: bold; margin: 1em;}
+div{align-content: center;}
+
+
+header{background:#e57d90; height: 300px;align-items: center;}
+     nav {
+            background-color: lightpink;
+            color: lightpink;
+            padding: 5px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            display: flex;
+            align-items: center; /* Centra verticalmente los elementos */
+        }
+        nav img {
+            width: 45px; /* Ajusta el ancho de la imagen según lo necesites */
+            margin-right: 59%; /* Agrega un espacio entre la imagen y las opciones de menú */
+        }
+        nav a {
+            color:white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+.logo-header{
+  max-width: 300px;
+  height: 100%;
+  width: 100%;}
+
+body {
+  background-color:#e57d90;
+  font-family: montserrat; 
+  color: white; 
+  width: 1348px; 
+  height: 100px; text-align: center; 
+  font-size: 20px; 
+  justify-content: center;}
+
+.carousel {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.wrap-servicios-section{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.item-servicios-section{
+  padding: 1rem;
+}
+
+.item-servicios-section img{
+  width: 300px;
+  height: 500px;
+}
+
+/** Two Columns Section **/
+
+.wrap-two-column{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin: 1 auto;
+}
+
+.wrap-img_two-column{
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.wrap-text-column h3{
+  padding: 2rem 0;
+}
+
+.wrap-text-column p{
+  padding-bottom: 1rem;
+}
+.footer-section{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-footer-section{
+  padding: 1rem 0;
+}
+
+.wrap-social-logos ul, .wrap-menu-footer-section ul{
+  display: flex;
+  justify-content: center;
+}
+
+.social-logo{
+  max-width: 75px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.wrap-menu-footer-section ul li{
+  font-size: 1.1rem;
+  padding: 1.5rem;
+}
+
+.footer-creds{
+  display: flex;
+  justify-content: center;
+  
+}
+a{color: white;}
